@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/recipes/static/css/main.b436f353.css",
+    "main.js": "/recipes/static/js/main.d7ce8e70.js",
+    "static/media/cookingTime.png": "/recipes/static/media/cookingTime.9796c94788694f2d06ec.png",
+    "index.html": "/recipes/index.html",
+    "main.b436f353.css.map": "/recipes/static/css/main.b436f353.css.map",
+    "main.d7ce8e70.js.map": "/recipes/static/js/main.d7ce8e70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b436f353.css",
+    "static/js/main.d7ce8e70.js"
+  ]
+}
