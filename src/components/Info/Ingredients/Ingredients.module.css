@@ -1,0 +1,6 @@
+.ingredientsList {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}

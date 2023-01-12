@@ -1,0 +1,17 @@
+.dropdownContainer {
+  position: relative;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+/* .select{
+  margin-bottom: 50px;
+} */
+.optionsContainer {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}

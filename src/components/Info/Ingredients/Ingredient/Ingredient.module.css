@@ -1,0 +1,17 @@
+.description {
+  font-size: 18px;
+  justify-content: start;
+}
+.ingredient {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.imgWrapper {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
