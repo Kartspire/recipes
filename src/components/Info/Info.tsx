@@ -13,7 +13,7 @@ export function Info() {
   return (
     <WithLoader>
       <div className="container">
-        <Link to="/" className={styles.back}></Link>
+        <Link to="/recipes" className={styles.back}></Link>
         <h3 className={styles.recipeTitle}>{recipeInfo?.title}</h3>
         <div className={styles.imgWrapper}>
           <img className={styles.recipeImage} src={recipeImage} alt="" />
