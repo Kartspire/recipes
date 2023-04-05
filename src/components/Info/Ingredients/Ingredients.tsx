@@ -1,8 +1,7 @@
-import React, { FC } from "react";
-import { useAppSelector } from "../../../app/hooks";
-import { IIngredient } from "../../../models/IIngredient";
-import { Ingredient } from "./Ingredient/Ingredient";
-import styles from "./Ingredients.module.css";
+import { FC } from 'react';
+import { IIngredient } from '../../../models/IIngredient';
+import { Ingredient } from './Ingredient/Ingredient';
+import styles from './Ingredients.module.css';
 
 interface IIngredientsProps {
   ingredients: IIngredient[];

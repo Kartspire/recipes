@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { useAppSelector } from "../../app/hooks";
-import styles from "./Search.module.css";
+import { ChangeEventHandler } from 'react';
+import { useAppSelector } from '../../app/hooks';
+import styles from './Search.module.css';
 
 interface ISearch {
   placeholder: string;
-  onChange: React.ChangeEventHandler;
+  onChange: ChangeEventHandler;
 }
 
 export function Search({ placeholder, onChange }: ISearch) {

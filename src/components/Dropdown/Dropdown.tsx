@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { isOpen } from '../../app/reducers/controlsSlice';
 import { Button } from '../Button';

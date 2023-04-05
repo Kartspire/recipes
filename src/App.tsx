@@ -1,8 +1,7 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Info } from "./components/Info";
-import { Main } from "./components/Main";
-import { WithLoader } from "./components/WithLoader";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Info } from './components/Info';
+import { Main } from './components/Main';
+import { WithLoader } from './components/WithLoader';
 
 const App = () => {
   return (

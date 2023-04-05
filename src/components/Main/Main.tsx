@@ -1,6 +1,6 @@
 import axios from 'axios';
 import '../../styles/main.global.css';
-import React, { useMemo } from 'react';
+import { ChangeEvent, useMemo } from 'react';
 import { CardsList } from '../CardsList';
 import { WithLoader } from '../WithLoader';
 import { Dropdown } from '../Dropdown';
@@ -42,7 +42,7 @@ export function Main() {
     <div className="container">
       <Search
         placeholder="Поиск"
-        onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+        onChange={(event: ChangeEvent<HTMLInputElement>) => {
           dispatch(setSearchQuery(event.target.value));
           console.log(searchQuery);
         }}
