@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { useAppDispatch, useAppSelector } from "../../app/hooks";
-import { isOpen } from "../../app/reducers/controlsSlice";
-import { Button } from "../Button";
-import styles from "./Dropdown.module.css";
+import React, { useState } from 'react';
+import { useAppDispatch, useAppSelector } from '../../app/hooks';
+import { isOpen } from '../../app/reducers/controlsSlice';
+import { Button } from '../Button';
+import styles from './Dropdown.module.css';
 
 type DropdownProps = React.PropsWithChildren<{
   menu: string[];
@@ -17,7 +17,7 @@ export const Dropdown = ({ menu, onClick }: DropdownProps) => {
   const searchRecipes = menu.map((el, index) => (
     <Button
       key={index}
-      classes={["standardBtn", "secondary", "mbs"]}
+      classes={['standardBtn', 'secondary', 'mbs']}
       onClick={() => {
         onClick(el);
         dispatch(isOpen());
@@ -30,9 +30,9 @@ export const Dropdown = ({ menu, onClick }: DropdownProps) => {
     <div className={styles.dropdownContainer}>
       <Button
         onClick={() => dispatch(isOpen())}
-        classes={["standardBtn", "secondary", "mbm"]}
+        classes={['standardBtn', 'secondary', 'mbm']}
       >
-        Выберите рецепт
+        Выбрать рецепт
       </Button>
       {opened && <div className={styles.optionsContainer}>{searchRecipes}</div>}
     </div>
