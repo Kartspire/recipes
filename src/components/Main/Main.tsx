@@ -1,6 +1,6 @@
 import axios from "axios";
 import "../../styles/main.global.css";
-import React, { useState, useMemo } from "react";
+import React, { useMemo } from "react";
 import { CardsList } from "../CardsList";
 import { WithLoader } from "../WithLoader";
 import { Dropdown } from "../Dropdown";
